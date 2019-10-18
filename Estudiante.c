@@ -23,19 +23,21 @@ Estudiante cargarEstudianteTeclado()
 {
     int dniN,edadN;
     char nomN[20],apeN[20];
-    printf("Ingrese el nombre nuevo:\n");
-    scanf("%s",nomN);
-    printf("Ingrese el apellido nuevo:\n");
-    scanf("%s",apeN);
-    printf("Ingrese el dni nuevo:\n");
-    scanf("%d",&dniN);
-    printf("Ingrese la edad nueva:\n");
-    scanf("%d",&edadN);
+    printf(" Ingrese el nombre nuevo:\n");
+    fflush(stdin);
+    gets(nomN);
+    printf(" Ingrese el apellido nuevo:\n");
+    fflush(stdin);
+    gets(apeN);
+    printf(" Ingrese el dni nuevo:\n");
+    dniN=comprobador();
+    printf(" Ingrese la edad nueva:\n");
+    edadN=comprobador();
     return cargarEstudiante(nomN,apeN,dniN,edadN);
 }
 void mostrarEstudiante(Estudiante e)
 {
-    printf("%s %s %d %d \n",e->nombre,e->apellido,e->dni,e->edad);
+    printf(" %s %s %d %d \n",e->nombre,e->apellido,e->dni,e->edad);
 }
 void destruirEstudiante(Estudiante e)
 {

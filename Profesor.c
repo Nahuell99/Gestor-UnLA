@@ -23,14 +23,17 @@ Profesor cargarProfesorTeclado()
 {
     int dniN,edadN;
     char nomN[20],apeN[20];
-    printf("Ingrese el dni nuevo:\n");
-    scanf("%d",&dniN);
-    printf("Ingrese el nombre nuevo:\n");
-    scanf("%s",nomN);
-    printf("Ingrese el apellido nuevo:\n");
-    scanf("%s",apeN);
-    printf("Ingrese la edad nueva:\n");
-    scanf("%d",&edadN);
+    opciones7(4);
+    printf(" Ingrese el nombre nuevo:\n");
+    fflush(stdin);
+    gets(nomN);
+    printf(" Ingrese el apellido nuevo:\n");
+    fflush(stdin);
+    gets(apeN);
+    printf(" Ingrese el dni nuevo:\n");
+    dniN=comprobador();
+    printf(" Ingrese la edad nueva:\n");
+    edadN=comprobador();
     return cargarProfesor(nomN,apeN,dniN,edadN);
 }
 void mostrarProfesor(Profesor p)

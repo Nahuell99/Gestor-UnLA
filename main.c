@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <windows.h>
+#include <Windows.h>
 #include "MenuFunciones.h"
 #include "Estudiante.h"
 #include "Profesor.h"
@@ -29,15 +29,17 @@ int main()
             universidad=menuCargarEstudiante(universidad);
             break;
         case 3://DEPARTAMENTO
-            //universidad=menuDepartamento(universidad);
+            universidad=menuDepartamento(universidad);
             break;
         case 0://CERRAR PROGRAMA
             printf("Adios.");
             a=1;
+            break;
         default:
             printf("Opcion incorrecta.");
-            Sleep(2400);
+            Sleep(1400);
             system("cls");
+            break;
         }
     }
     return 0;

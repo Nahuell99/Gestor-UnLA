@@ -24,7 +24,9 @@ Universidad crearUniversidad()
 };
 void mostrarUniversidad(Universidad u)
 {
-    printf("\n                      %s\n                       Rectora: %s\n                           %s\n",u->nombre,u->rector,u->fundacion);
+    printf("\n                                  %s",u->nombre);
+    printf("\n                                   Rectora: %s",u->rector);
+    printf("\n                                       %s\n",u->fundacion);
     system("pause");
     system("cls");
 };

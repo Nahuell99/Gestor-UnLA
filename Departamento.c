@@ -19,23 +19,31 @@ Departamento crearDepartamentos(int i)
         strcpy(d->nombre,"Departamento de Desarrollo Productivo y Tecnologico");
         strcpy(d->titular,"Dr. Pablo Narvaja");
         d->cantidadCarreras=0;
-        case 1:
-        strcpy(d->nombre,"Departamento de Planificación y Políticas Públicas");
+        /* Agrego por defecto una serie de datos que me sirben de muestra para probar todo el programa */
+        agregarCarrera(d,crearCarreraAuto("Lic. en Sistemas","Maria Vranic"));
+        break;
+    case 1:
+        strcpy(d->nombre,"Departamento de Planificacion y Politicas Publicas");
         strcpy(d->titular,"Dr. Francisco Pestanha");
         d->cantidadCarreras=0;
         break;
-        case 2:
+    case 2:
         strcpy(d->nombre,"Departamento de Humanidades y Artes");
         strcpy(d->titular,"Mtro. Daniel Bozzani");
         d->cantidadCarreras=0;
         break;
-        case 3:
+    case 3:
         strcpy(d->nombre,"Departamento de Salud Comunitaria");
         strcpy(d->titular,"Lic. Ramón Alvarez");
         d->cantidadCarreras=0;
         break;
     }
-return d;
+    return d;
+}
+void agregarCarrera(Departamento d, Carrera c)
+{
+    d->carreras[d->cantidadCarreras]=c;
+    d->cantidadCarreras=(d->cantidadCarreras)+1;
 }
 void destruirDepartamento(Departamento d)
 {

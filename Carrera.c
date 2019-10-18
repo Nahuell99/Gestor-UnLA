@@ -10,15 +10,39 @@
 #include "Departamento.h"
 #include "Universidad.h"
 
-Carrera crearCarrera();
-Carrera agregarMateria(Carrera c);
+Carrera crearCarreraAuto(char nombre[20],char titular[20])
+{
+    Carrera c = malloc(sizeof(struct structCarrera));
+    strcpy(c->nombre,nombre);
+    strcpy(c->titular,titular);
+    c->cantidadMaterias=0;
+    agregarMateria(c,cargarMateriaAuto("Matematica"));
+    return c;
+}
+Carrera crearCarrera()
+{
+    Carrera c = malloc(sizeof(struct structCarrera));
+    c->cantidadMaterias=0;
+    printf(" Ingrese el nombre de la carrera:\n");
+    fflush(stdin);
+    gets(c->nombre);
+    printf(" Ingrese el nombre del titular de la carrera:\n");
+    fflush(stdin);
+    gets(c->titular);
+    return c;
+}
+void agregarMateria(Carrera c,Materia m)
+{
+    c->materias[c->cantidadMaterias]=m;
+    c->cantidadMaterias=(c->cantidadMaterias)+1;
+}
 void destruirCarrera(Carrera c)
 {
     free(c);
 }
 void mostrarCarrera(Carrera c)
 {
-    printf("%s ** titular:%s",c->nombre,c->titular);
+    printf("Carrera:%s -- Titular:%s\n",c->nombre,c->titular);
 }
 char *getNombreC(Carrera c)
 {

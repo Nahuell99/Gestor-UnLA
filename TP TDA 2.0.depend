@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1570031892 source:c:\users\nahuel\google drive\tp tda 2.0\carrera.c
+1570808755 source:c:\users\nahuel\google drive\tp tda 2.0\carrera.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -12,7 +12,7 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570035525 source:c:\users\nahuel\google drive\tp tda 2.0\departamento.c
+1570465859 source:c:\users\nahuel\google drive\tp tda 2.0\departamento.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -25,7 +25,7 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570037829 source:c:\users\nahuel\google drive\tp tda 2.0\estudiante.c
+1570902388 source:c:\users\nahuel\google drive\tp tda 2.0\estudiante.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -38,7 +38,21 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570070377 source:c:\users\nahuel\google drive\tp tda 2.0\main.c
+1570465490 source:c:\users\nahuel\google drive\tp tda 2.0\main.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570900829 source:c:\users\nahuel\google drive\tp tda 2.0\materia.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -51,7 +65,7 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570040349 source:c:\users\nahuel\google drive\tp tda 2.0\materia.c
+1570818374 source:c:\users\nahuel\google drive\tp tda 2.0\profesor.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -64,7 +78,21 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570039100 source:c:\users\nahuel\google drive\tp tda 2.0\profesor.c
+1570908874 source:c:\users\nahuel\google drive\tp tda 2.0\menufunciones.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570676042 source:c:\users\nahuel\google drive\tp tda 2.0\universidad.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -77,33 +105,7 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570071234 source:c:\users\nahuel\google drive\tp tda 2.0\menufunciones.c
-	<time.h>
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"MenuFunciones.h"
-	"Estudiante.h"
-	"Profesor.h"
-	"Materia.h"
-	"Carrera.h"
-	"Departamento.h"
-	"Universidad.h"
-
-1570035746 source:c:\users\nahuel\google drive\tp tda 2.0\universidad.c
-	<time.h>
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"MenuFunciones.h"
-	"Estudiante.h"
-	"Profesor.h"
-	"Materia.h"
-	"Carrera.h"
-	"Departamento.h"
-	"Universidad.h"
-
-1570041088 c:\users\nahuel\google drive\tp tda 2.0\menufunciones.h
+1570808627 c:\users\nahuel\google drive\tp tda 2.0\menufunciones.h
 
 1570037652 c:\users\nahuel\google drive\tp tda 2.0\estudiante.h
 
@@ -111,13 +113,13 @@
 
 1570040100 c:\users\nahuel\google drive\tp tda 2.0\materia.h
 
-1570036990 c:\users\nahuel\google drive\tp tda 2.0\carrera.h
+1570423366 c:\users\nahuel\google drive\tp tda 2.0\carrera.h
 
-1570036624 c:\users\nahuel\google drive\tp tda 2.0\departamento.h
+1570423169 c:\users\nahuel\google drive\tp tda 2.0\departamento.h
 
 1570035293 c:\users\nahuel\google drive\tp tda 2.0\universidad.h
 
-1570200328 source:c:\users\aula2sca\desktop\tp tda 2.0\carrera.c
+1570902388 source:c:\users\nahuel\desktop\tp tda 2.0\estudiante.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -130,21 +132,35 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570026688 c:\users\aula2sca\desktop\tp tda 2.0\menufunciones.h
+1570808627 c:\users\nahuel\desktop\tp tda 2.0\menufunciones.h
 
-1570023252 c:\users\aula2sca\desktop\tp tda 2.0\estudiante.h
+1570037652 c:\users\nahuel\desktop\tp tda 2.0\estudiante.h
 
-1570024664 c:\users\aula2sca\desktop\tp tda 2.0\profesor.h
+1570039064 c:\users\nahuel\desktop\tp tda 2.0\profesor.h
 
-1570025700 c:\users\aula2sca\desktop\tp tda 2.0\materia.h
+1570914555 c:\users\nahuel\desktop\tp tda 2.0\materia.h
 
-1570022590 c:\users\aula2sca\desktop\tp tda 2.0\carrera.h
+1570914346 c:\users\nahuel\desktop\tp tda 2.0\carrera.h
 
-1570022224 c:\users\aula2sca\desktop\tp tda 2.0\departamento.h
+1570423169 c:\users\nahuel\desktop\tp tda 2.0\departamento.h
 
-1570020892 c:\users\aula2sca\desktop\tp tda 2.0\universidad.h
+1570035293 c:\users\nahuel\desktop\tp tda 2.0\universidad.h
 
-1570200043 source:c:\users\aula2sca\desktop\tp tda 2.0\departamento.c
+1570465490 source:c:\users\nahuel\desktop\tp tda 2.0\main.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570916450 source:c:\users\nahuel\desktop\tp tda 2.0\materia.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -157,7 +173,21 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570023428 source:c:\users\aula2sca\desktop\tp tda 2.0\estudiante.c
+1570916739 source:c:\users\nahuel\desktop\tp tda 2.0\menufunciones.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570818374 source:c:\users\nahuel\desktop\tp tda 2.0\profesor.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -170,7 +200,7 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570025948 source:c:\users\aula2sca\desktop\tp tda 2.0\materia.c
+1570676042 source:c:\users\nahuel\desktop\tp tda 2.0\universidad.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -183,7 +213,7 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570024700 source:c:\users\aula2sca\desktop\tp tda 2.0\profesor.c
+1570915292 source:c:\users\nahuel\desktop\tp tda 2.0\carrera.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -196,7 +226,7 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570021346 source:c:\users\aula2sca\desktop\tp tda 2.0\universidad.c
+1570914379 source:c:\users\nahuel\desktop\tp tda 2.0\departamento.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
@@ -209,12 +239,11 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570199982 source:c:\users\aula2sca\desktop\tp tda 2.0\main.c
+1570915292 source:c:\users\nahuel\google drive\tp tda 3.0\carrera.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
-	<windows.h>
 	"MenuFunciones.h"
 	"Estudiante.h"
 	"Profesor.h"
@@ -223,7 +252,101 @@
 	"Departamento.h"
 	"Universidad.h"
 
-1570200328 source:c:\users\aula2sca\desktop\tp tda 2.0\menufunciones.c
+1570808627 c:\users\nahuel\google drive\tp tda 3.0\menufunciones.h
+
+1570037652 c:\users\nahuel\google drive\tp tda 3.0\estudiante.h
+
+1570039064 c:\users\nahuel\google drive\tp tda 3.0\profesor.h
+
+1570914555 c:\users\nahuel\google drive\tp tda 3.0\materia.h
+
+1570914346 c:\users\nahuel\google drive\tp tda 3.0\carrera.h
+
+1570423169 c:\users\nahuel\google drive\tp tda 3.0\departamento.h
+
+1570035293 c:\users\nahuel\google drive\tp tda 3.0\universidad.h
+
+1571019272 source:c:\users\nahuel\google drive\tp tda 3.0\departamento.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570902388 source:c:\users\nahuel\google drive\tp tda 3.0\estudiante.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570465490 source:c:\users\nahuel\google drive\tp tda 3.0\main.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570916450 source:c:\users\nahuel\google drive\tp tda 3.0\materia.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1571357502 source:c:\users\nahuel\google drive\tp tda 3.0\menufunciones.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570818374 source:c:\users\nahuel\google drive\tp tda 3.0\profesor.c
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MenuFunciones.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Materia.h"
+	"Carrera.h"
+	"Departamento.h"
+	"Universidad.h"
+
+1570676042 source:c:\users\nahuel\google drive\tp tda 3.0\universidad.c
 	<time.h>
 	<stdio.h>
 	<stdlib.h>

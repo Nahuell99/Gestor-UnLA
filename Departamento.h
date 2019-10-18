@@ -10,7 +10,7 @@ struct structDepartamento
 };
 typedef struct structDepartamento* Departamento;
 Departamento crearDepartamentos(int i);
-Departamento agregarCarrera(Departamento d);
+void agregarCarrera(Departamento d, Carrera c);
 void destruirDepartamento(Departamento d);
 void mostrarDepartamento(Departamento d);
 char *getNombreD(Departamento d);

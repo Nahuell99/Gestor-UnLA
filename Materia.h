@@ -11,6 +11,7 @@ struct structMateria
 };
 typedef struct structMateria *Materia;
 Materia crearMateria();
+Materia cargarMateriaAuto(char nom[20]);
 void agregarEstudiante(Materia m, Estudiante e);
 void agregarProfesor(Materia m, Profesor p);
 void destruirMateria(Materia m);

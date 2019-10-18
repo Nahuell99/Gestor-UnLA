@@ -10,7 +10,8 @@ struct structCarrera
 };
 typedef struct structCarrera* Carrera;
 Carrera crearCarrera();
-Carrera agregarMateria(Carrera c);
+Carrera crearCarreraAuto(char nombre[20],char titular[20]);
+void agregarMateria(Carrera c,Materia m);
 void destruirCarrera(Carrera c);
 void mostrarCarrera(Carrera c);
 char *getNombreC(Carrera c);
